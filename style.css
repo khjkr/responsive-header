@@ -34,7 +34,12 @@ a {
 }
 
 .navbar__menu li {
-  padding: 8px 12px; 
+  padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+  background-color: #E88C17;
+  border-radius: 4px;
 }
 
 .navbar__icons {
