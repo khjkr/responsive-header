@@ -21,10 +21,16 @@ a {
 .navbar__logo {
   font-size: 24px;
   color: white;
+  transition: 0.2s;
 }
 
 .navbar__logo i {
   color: #E88C17;
+}
+
+.navbar__logo:hover {
+  opacity: 0.6;
+  transition: 0.2s;
 }
 
 .navbar__menu {
@@ -35,11 +41,13 @@ a {
 
 .navbar__menu li {
   padding: 8px 12px;
+  transition: 0.2s;
 }
 
 .navbar__menu li:hover {
   background-color: #E88C17;
   border-radius: 4px;
+  transition: 0.2s;
 }
 
 .navbar__icons {
@@ -51,6 +59,12 @@ a {
 
 .navbar__icons li {
   padding: 8px 12px;
+  transition: 0.2s;
+}
+
+.navbar__icons li:hover {
+  opacity: 0.6;
+  transition: 0.2s;
 }
 
 .navbar__toggleBtn {
@@ -59,6 +73,12 @@ a {
   font-size: 24px;
   color: #E88C17;
   display: none;
+  transition: 0.2s;
+}
+
+.navbar__toggleBtn:hover {
+  transition: 0.2s;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 768px) {
